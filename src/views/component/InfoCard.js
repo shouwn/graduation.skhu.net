@@ -66,7 +66,7 @@ class InfoCard extends React.Component {
 
         return(
             <GridItem xs={this.state.xs} sm={this.state.sm} md={this.state.md}>
-                <Card>
+                <Card className="card card-lift--hover shadow border-0">
                     <CardHeader color="warning" stats icon>
                         <CardIcon color="info">
                             <div>{this.state.info.category}</div>
